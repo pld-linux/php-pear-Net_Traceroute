@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Execute traceroute
-Summary(pl):	%{_pearname} - Uruchamia program traceroute
+Summary(pl):	%{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
 Version:	0.11
 Release:	1

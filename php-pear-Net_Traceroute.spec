@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Execute traceroute
 Summary(pl):	%{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
-Version:	0.11
+Version:	0.21
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	aa59db4a0a01ddb10a28c6cacaf37ff9
+# Source0-md5:	65d8a974d1285bc6844243b941046350
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -43,4 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc %{_pearname}-%{version}/docs
 %{php_pear_dir}/%{_class}/*.php

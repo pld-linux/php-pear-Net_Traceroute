@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Traceroute
+%define		_class		Net
+%define		_subclass	Traceroute
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Execute traceroute
+
+Summary:	%{_pearname} - execute traceroute
 Summary(pl):	%{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
 Version:	0.21

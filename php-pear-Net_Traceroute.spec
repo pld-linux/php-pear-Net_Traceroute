@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 OS independent wrapper class for executing traceroute calls.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Niezale¿na od systemu klasa, bêd±ca wrapperem do uruchamiania programu

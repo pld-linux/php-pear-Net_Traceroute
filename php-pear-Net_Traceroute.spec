@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - execute traceroute
-Summary(pl):	%{_pearname} - uruchamianie programu traceroute
+Summary(pl.UTF-8):   %{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
 Version:	0.21
 Release:	5
@@ -26,8 +26,8 @@ OS independent wrapper class for executing traceroute calls.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Niezale¿na od systemu klasa, bêd±ca wrapperem do uruchamiania programu
+%description -l pl.UTF-8
+NiezaleÅ¼na od systemu klasa, bÄ™dÄ…ca wrapperem do uruchamiania programu
 traceroute.
 
 Ta klasa ma w PEAR status: %{_status}.

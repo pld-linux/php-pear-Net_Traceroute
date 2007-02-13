@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - execute traceroute
-Summary(pl.UTF-8):   %{_pearname} - uruchamianie programu traceroute
+Summary(pl.UTF-8):	%{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
 Version:	0.21
 Release:	5

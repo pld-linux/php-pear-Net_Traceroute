@@ -3,16 +3,15 @@
 %define		_subclass	Traceroute
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
-
 Summary:	%{_pearname} - execute traceroute
 Summary(pl.UTF-8):	%{_pearname} - uruchamianie programu traceroute
 Name:		php-pear-%{_pearname}
-Version:	0.21.1
-Release:	2
+Version:	0.21.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7c92094add7f3f516c4a1e973cd065b4
+# Source0-md5:	fa59c7c37f9f2b41c8c5a2b2a4b3eef6
 URL:		http://pear.php.net/package/Net_Traceroute/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -34,6 +33,8 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %pear_package_setup
+
+rm .%{php_pear_dir}/data/Net_Traceroute/gendoc*.sh
 
 %install
 rm -rf $RPM_BUILD_ROOT
